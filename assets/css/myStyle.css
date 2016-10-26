@@ -1,0 +1,46 @@
+.navbar-brand {
+	padding-left: 0;
+}
+
+.container {
+	margin: 0 auto;
+	width: 80%	
+}
+
+#headShot {
+	width: 30%;
+	margin-right: 1%;
+	margin-bottom: 1%;	
+}
+
+#logos {
+	width: 30%;
+}
+
+.container .footer {
+	text-align: center;
+}
+
+.push	{
+	height: 100px;
+
+}
+
+.portfolioPics {
+	width: 100%;
+	display: inline-block;	
+}
+
+.pictureContainer {
+	position: relative;
+	display: inline-block;	
+	width: 45%;
+}
+
+#pictureTitles {
+	position: absolute;
+	bottom: 10px;
+	background-color: white;
+	width: 100%;
+	text-align: center;	
+}
