@@ -1,42 +1,52 @@
+/*Here, I took away some padding that existed in the theme css*/
+
 .navbar-brand {
 	padding-left: 0;
 }
 
+/*Here, I set the container class to be 80% of the page wide. */
 .container {
 	margin: 0 auto;
 	width: 80%	
 }
 
+/*Here, I gave some spacing to my headshot on the right and bottom*/
 #headShot {
 	width: 30%;
 	margin-right: 1%;
 	margin-bottom: 1%;	
 }
 
+/*Here, I made the width of the logos 30% of the parent element, 
+aside.*/
 #logos {
 	width: 30%;
 }
-
+/*Here, I centered my text in my footer. */
 .container .footer {
 	text-align: center;
 }
 
+/*Here, I set a hard height to my push class so that there was always
+space between my body container and my footer. */
 .push	{
 	height: 100px;
 
 }
-
+/*Here I set the pictures on the portfolio page to be 100% of the parent element wide.*/
 .portfolioPics {
 	width: 100%;
 	display: inline-block;	
 }
 
+/*Here I made two columns of pictures with even spacing */
 .pictureContainer {
 	position: relative;
 	display: inline-block;	
 	width: 45%;
 }
 
+/*Here I changed the color of the titles for my picture headings*/
 #pictureTitles {
 	position: absolute;
 	bottom: 10px;
